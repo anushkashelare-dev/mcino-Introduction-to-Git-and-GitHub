@@ -1,0 +1,11 @@
+Task 7: First merge (merge_branches)
+
+Required terminal commands:
+git checkout main
+git merge bug-fix-typo
+
+Repository verification:
+The branch bug-fix-typo was not present in the repository when checked, so this merge has not yet been performed.
+
+Important:
+This file contains the required commands and verification note. It does not claim to contain genuine terminal output or that 1 file was changed. After the bug-fix-typo branch is created and merged locally, replace this note with the actual terminal output showing the merge summary and "1 file changed".
