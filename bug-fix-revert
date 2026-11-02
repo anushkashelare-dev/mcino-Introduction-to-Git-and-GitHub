@@ -1,0 +1,12 @@
+Task 8: Pull request verification (bug-fix-revert)
+
+Suggested curl command (run after creating your pull request):
+curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all&head=anushkashelare-dev:main"
+
+Fork repository:
+https://github.com/anushkashelare-dev/mcino-Introduction-to-Git-and-GitHub
+
+Verification status:
+No pull request from anushkashelare-dev was found in the forked repository's pull request list at the time this file was prepared. Therefore, there is no genuine pull request response to paste here yet.
+
+After opening the required pull request from your fork to the upstream repository, run the curl command above and replace this note with the actual terminal output. The returned JSON should include the pull request head repository (the fork) and head branch.
