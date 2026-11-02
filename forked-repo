@@ -1,0 +1,12 @@
+Task 6: Verify the forked repository
+
+Command to run in Git Bash:
+curl -s https://api.github.com/repos/anushkashelare-dev/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"|"html_url"'
+
+Repository verification:
+Repository: anushkashelare-dev/mcino-Introduction-to-Git-and-GitHub
+URL: https://github.com/anushkashelare-dev/mcino-Introduction-to-Git-and-GitHub
+Visibility: public
+Default branch: main
+
+Note: The repository details above were verified through the connected GitHub integration. They are not represented as terminal output. Run the command above in Git Bash and replace this note with the actual output if your assignment specifically requires terminal output.
