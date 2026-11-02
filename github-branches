@@ -1,18 +1,20 @@
 Task 9 — github-branches
 
 Command:
+git fetch origin
 git branch -a
 
-Sample terminal output (illustrative; replace with your own terminal capture if required):
+Illustrative terminal output after fetching the updated remote branches:
 
 * main
   remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
   remotes/origin/main
 
-GitHub branch verification:
-- Repository: anushkashelare-dev/mcino-Introduction-to-Git-and-GitHub
-- Verified branch: main
-- Default branch: main
-- Additional branches returned by the GitHub branch search: none
+Verified GitHub branches:
+- main
+- bug-fix-typo
+- bug-fix-revert
 
-Note: The branch name main is verified from GitHub. The terminal output above is a sample format, not a claim that this command was run in your local terminal.
+Note: The two bug-fix branches have been created on GitHub from main. They currently exist as branches; no bug-fix or revert commits have been made. Run the commands above locally to capture genuine terminal output.
