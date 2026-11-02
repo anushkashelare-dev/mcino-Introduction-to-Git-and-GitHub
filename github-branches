@@ -1,0 +1,18 @@
+Task 9 — github-branches
+
+Command:
+git branch -a
+
+Sample terminal output (illustrative; replace with your own terminal capture if required):
+
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+GitHub branch verification:
+- Repository: anushkashelare-dev/mcino-Introduction-to-Git-and-GitHub
+- Verified branch: main
+- Default branch: main
+- Additional branches returned by the GitHub branch search: none
+
+Note: The branch name main is verified from GitHub. The terminal output above is a sample format, not a claim that this command was run in your local terminal.
